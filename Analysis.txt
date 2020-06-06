@@ -1,0 +1,21 @@
+Task 0:
+- O(1)
+- The running time is independant of input size.
+
+Task 1:
+- O(n)
+- It has 2 for loops. Each one is iterating from 1 to n. So O(2n) which in turn, following Big-O notation simplified to O(n). 
+
+Task 2:
+- O(n)
+- The algorithm is liner time and having 1 for loop.
+
+Task 3:
+- O(nlog(n))
+- It has 3 for loops, resulting in O(3n) and 1 sorting function which is O(nlog(n)). Combining these two results in O(3n + nlogn).
+  However it can be simplified to O(nlog(n)).
+
+Task 4:
+- O(nlog(n))
+- It has 2 for loops, resulting in O(2n) and 1 sorting function which is O(nlog(n)). Combining these two results in O(2n + nlogn).
+  However it can be simplified to O(nlog(n)).
