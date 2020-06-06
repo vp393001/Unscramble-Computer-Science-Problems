@@ -41,5 +41,4 @@ for entry in texts:
 telemarketers = sorted(list(tele_call_outgoing - tele_call_incoming - tele_text_incoming - tele_text_outgoing))
 
 print("These numbers could be telemarketers: ")
-for no in telemarketers:
-    print(no)
+print(*telemarketers, sep = '\n')
